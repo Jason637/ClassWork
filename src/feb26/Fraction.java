@@ -31,5 +31,9 @@ public class Fraction implements Comparable<Fraction>{
     {
 
     }
+    public String tostring()
+    {
+        return num +"/"+denom;
+    }
 
 }
